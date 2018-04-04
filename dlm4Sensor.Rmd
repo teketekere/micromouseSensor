@@ -15,3 +15,9 @@ print(tsinput)
 # plot
 plot(tsinput, main = "")
 ```
+
+```{r}
+# dlm
+library("dlm")
+```
+
