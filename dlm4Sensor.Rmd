@@ -1,0 +1,17 @@
+---
+title: "dlm for micromouse sensor"
+output: html_notebook
+---
+
+```{r}
+# read data
+input <- read.csv(file = "./inputs/microMouseSensor.csv", header = TRUE)
+input
+```
+```{r}
+# change input list to time series
+tsinput <- ts(input)
+print(tsinput)
+# plot
+plot(tsinput, main = "")
+```
